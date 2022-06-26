@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<conio.h>
 #include<strings.h>
 void main()
 {
@@ -17,7 +16,6 @@ for(i=0;i<l;i++)
  if(input[i]!='a'&&input[i]!='b')
  {
  printf("Value entered is wrong");
- getch();
  exit(0);
  }
 if(input[i]=='a')
@@ -32,5 +30,4 @@ if(status==-1)
 }
 if(i==l)
 printf("String Accepted");
-getch();
 }
