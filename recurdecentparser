@@ -63,3 +63,7 @@ void F()
  else
  error=1;
 }
+
+
+output:
+a+(a*a)
