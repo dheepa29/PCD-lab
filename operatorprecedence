@@ -90,3 +90,7 @@ void main()
  printf("%c",ip[k]);
  }
  printf("\t\t\t");}}
+
+
+output:
+i*i$
