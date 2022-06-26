@@ -31,3 +31,6 @@ if(status==-1)
 if(i==l)
 printf("String Accepted");
 }
+
+output:
+ababababa
