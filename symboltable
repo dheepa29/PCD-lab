@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<conio.h>
+// #include<conio.h>
 #include<string.h>
 #include<stdlib.h>
 int size=0;
@@ -22,8 +22,7 @@ char la[10];
 do
 {
  printf("\n\tSYMBOL TABLE IMPLEMENTATION\n");
- printf("\n\t1.INSERT\n\t2.DISPLAY\n\t3.DELETE\n\t4.SEARCH\n\t5.MODIFY\n\t6.END\n
-");
+ printf("\n\t1.INSERT\n\t2.DISPLAY\n\t3.DELETE\n\t4.SEARCH\n\t5.MODIFY\n\t6.END\n");
  printf("\n\tEnter your option : ");
  scanf("%d",&op);
  switch(op)
@@ -53,8 +52,9 @@ do
  case 6:
  exit(0);
  }
-}while(op<6);
-getch();
+}
+while(op<6);
+// getch();
 }
 void Insert()
 {
