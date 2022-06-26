@@ -91,3 +91,7 @@ flag=1;
 x++;
 }
 }
+
+
+output:
+a*b+c/d-e/f+g*h
