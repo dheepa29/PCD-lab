@@ -56,3 +56,13 @@ void yyerror()
  printf("\nEntered arithmetic expression is Invalid\n\n");
  flag=1;
 }
+
+
+
+output:
+C:\Users\18csec29\Desktop\Ex-4>yacc -d 4c.y
+C:\Users\18csec29\Desktop\Ex-4>lex 4c.l
+C:\Users\18csec29\Desktop\Ex-4>gcc lex.yy.c y. tab.c -w
+C:\Users\18csec29\Desktop\Ex-4>./a.out
+3*5+4
+19.000000
