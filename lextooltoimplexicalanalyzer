@@ -75,3 +75,48 @@ else
 printf("%d is odd.", number);
 return 0;
 }
+
+
+
+output:
+C:\Users\18csec29\Desktop\pcd>flex first.l
+C:\Users\18csec29\Desktop\pcd>gcc lex.yy.c
+C:\Users\18csec29\Desktop\pcd>a.exe second.c
+#include <stdio.h> is a PREPROCESSOR DIRECTIVE
+int is a KEYWORD
+FUNCTION
+main(
+)
+BLOCK BEGINS
+int is a KEYWORD
+number IDENTIFIER;
+FUNCTION
+printf(
+"Enter an integer: " is a STRING
+);
+FUNCTION
+scanf(
+"%d" is a STRING, &
+number IDENTIFIER
+);
+FUNCTION
+if(
+number IDENTIFIER %2 is
+a NUMBER
+== is a RELATIONAL OPERATOR0 is a
+NUMBER
+)
+FUNCTION
+printf(
+"%d is even." is a STRING,
+number IDENTIFIER
+);
+else is a KEYWORD
+FUNCTION
+printf(
+"%d is odd." is a STRING,
+number IDENTIFIER
+);
+return is a KEYWORD0 is
+a NUMBER;
+BLOCK ENDS
